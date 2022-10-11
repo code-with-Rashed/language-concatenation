@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Concatenated</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="row">
+            <h1>Language to Language Concatenation.</h1>
+        </div>
+        <div class="row">
+            <div class="operation">
+                <div class="add-box">
+                    <button class="add-btn" onclick="addBox()">Add</button>
+                </div>
+                <div class="reset-box">
+                    <button class="reset-btn" onclick="resetPage()">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form">
+                <form id="form">
+                    <div id="input-box">
+                        <div class="inp-box">
+                            <div class="lang-one">
+                                <label>
+                                    <input type="text" placeholder='lang one' required class="lang_one_inp">
+                                </label>
+                            </div>
+                            <div class="lang-two">
+                                <label>
+                                    <input type="text" required placeholder='lang two' class="lang_two_inp">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Concatenation">
+                </form>
+            </div>
+        </div>
+
+        <div class="row" id="result-box">
+            <div class="result">
+                <div class="result-box">
+                    <div class="text-box">
+                        <span>Edit & Copy</span>
+                        <textarea id="text-copy" rows="1"></textarea>
+                    </div>
+                    <div class="word-box">
+                        <span>Downloadeble word file</span>
+                        <div id="word"></div>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="save-option">
+                    <button class="save-btn" title="Copy You'r Result" onclick="copyData()">Copy</button>
+                    <button class="save-btn" title="Download Word File" onclick="wordFile()">Word</button>
+                </div>
+                <div class="close" onclick="closeResultBox()">&times;</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
