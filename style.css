@@ -1,8 +1,3 @@
-@font-face {
-    font-family: SutonnyMJ Regular;
-    src: url(./font/SutonnyMJ_Regular.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -85,7 +80,6 @@ h1 {
 }
 
 input[type='text'] {
-    font-family: SutonnyMJ Regular;
     padding: 10px 4px;
     border: 1px solid rgb(169, 220, 240);
     outline-color: skyblue;
@@ -156,7 +150,6 @@ input[type='submit'] {
 }
 
 #text-copy {
-    font-family: SutonnyMJ Regular;
     margin-top: 5px;
     padding: 10px 4px;
     border: 1px solid rgb(169, 220, 240);
@@ -172,7 +165,6 @@ input[type='submit'] {
 }
 
 #word {
-    font-family: SutonnyMJ Regular;
     margin-top: 5px;
     text-align: left;
     padding: 10px 4px;
